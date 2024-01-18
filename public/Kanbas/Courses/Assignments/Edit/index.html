@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+    <select id="assignment-edit-dropdown">
+           <option selected value="SPEEDGRADER">
+               SpeedGrader</option>
+    </select>
+    <hr>
+    <h3>Assignment Name</h3>
+
+    <input id="assignment-name" placeholder="A1 - ENV + HTML"/>
+    <br>
+    <br>
+
+    <input id="assignment-description" placeholder="This is the assignment description."/>
+    <br>
+    <br>
+
+    <label for="assignment-points">Points</label>
+    <br>
+    <input id="assignment-points" placeholder="100"/>
+    <br>
+    <br>
+
+    <label for="assignment-group">Assignment Group</label>
+    <br>
+    <select id="assignment-group">
+        <option selected value="assignments">ASSIGNMENTS</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="grade-display">Display Grade as</label>
+    <br>
+    <select id="grade-display">
+        <option selected value="percentage">Percentage</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="submission-type">Submission Type</label>
+    <br>
+    <select id="submission-type">
+        <option selected value="online">Online</option>
+    </select>
+    <br>
+    <br>
+
+    Online Entry Options
+    <br>
+    <input type="checkbox" value="TEXTENTRY"
+      name="check-entry" id="chkbox-textentry" />
+    <label for="chkbox-textentry">Text Entry</label>    
+    <br/>
+
+    <input type="checkbox" value="WEBSITE"
+      name="check-entry" id="chkbox-website"/>
+    <label for="chkbox-website">Website URL</label>    
+    <br/>
+
+    <input type="checkbox" value="MEDIA"
+      name="check-entry" id="chkbox-media" />
+    <label for="chkbox-media">Media Recordings</label> 
+    <br/>
+
+    <input type="checkbox" value="ANNOTATION"
+      name="check-entry" id="chkbox-annotation"/>
+    <label for="chkbox-annotation">Student Annotation</label>
+    <br/>
+
+    <input type="checkbox" value="UPLOAD"
+      name="check-entry" id="chkbox-upload"/>
+    <label for="chkbox-upload">File Uploads</label>
+    <br/>
+    <br/>
+
+    Assign
+    <br>
+    <label for="assignment-assign">Assign to</label>
+    <br>
+    <input id="assignment-assign" placeholder="Everyone"/>
+    <br>
+
+    <br>
+    <label for="assignment-due">Due</label>
+    <br>
+    <input type="date" id="assignment-due"/>
+    <br>
+
+    <br>
+    <label for="assignment-available-from">Available from</label>
+    <br>
+    <input type="date" id="assignment-available-from"/>
+    <br>
+
+    <br>
+    <label for="assignment-until">Until</label>
+    <br>
+    <input type="date" id="assignment-until" />
+    <br>
+    <br>
+
+    <button type="button">Cancel</button>
+    <button type="button">Save</button>
+
+
+    </body>
+
+    
+
+</html>
