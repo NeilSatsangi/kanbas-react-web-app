@@ -1,0 +1,141 @@
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0px;  margin: 0px;
+  width: 75px;
+  
+}
+.wd-kanbas-navigation li {
+  padding: 10px;     margin-bottom: 5px;
+  font-size: 0.8em;  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+  color: red;
+}
+.wd-kanbas-navigation li.wd-active a {
+  color: red;
+  text-align: center;
+}
+.wd-kanbas-navigation a {
+  color: white;
+  text-decoration: none;
+}
+.wd-kanbas-navigation a i {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.wd-kanbas-navigation li a i.fa-user-circle-o {
+  color: white; 
+}
+
+.wd-kanbas-navigation li a i.fa-question-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wd-kanbas-navigation li:first-child a {
+font-size: 3em;
+color: #CC0000; 
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+}
+
+.modal-content {
+  background-color: white;
+}
+
+
+.modal-title {
+  color: red;
+}
+.modal-body {
+  color: red;
+}
+
+.modal-dialog-slideLeft {
+  animation: slideInLeft 0.5s forwards;
+  animation-duration: 0.5s;
+  position: fixed;
+  z-index: 1050;
+  left: 0; 
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.circle-check, .plus-sign{
+  color: green;
+}
+
+.x-sign {
+  color: red;
+}
+
+.btn-custom {
+  background-color: #f8f9fa; 
+  color: #212529; 
+  border: 1px solid #ced4da;
+  border-radius: 3px; 
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+.btn-custom:hover {
+  background-color: #f8f9fa; 
+  color: #212529; 
+  border: 1px solid #ced4da; 
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+.btn {
+  --bs-btn-hover-border-color: none;
+}
+
+.btn-custom-red {
+  background-color: #ff0000; 
+  color: #212529; 
+  border: 1px solid #ced4da;
+  border-radius: 3px; 
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+.btn-custom-red:hover {
+  background-color: #ff0000; 
+  color: #212529; 
+  border: 1px solid #ced4da; 
+}
+
+.breadcrumb-item {
+  color: red !important;
+  text-decoration: none;
+}
+
+.breadcrumb-item a {
+  color: red;
+  text-decoration: none;
+}
+
+
+.publish-button {
+  background-color: green;
+}
